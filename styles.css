@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a2647;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 80%;
+  width: 25%;
+  border: 20px solid #144272;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  background: transparent;
+}
+
+form {
+  height: 100%;
+}
+
+form > div {
+  height: 16.5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+form > div > input {
+  height: 60%;
+  width: 17%;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  color: white;
+}
+form > .displayDiv {
+  border-bottom: 10px solid #144272;
+  background-color: rgba(19, 19, 19, 0.867);
+}
+form > div > .display {
+  width: 80%;
+  box-shadow: none;
+  font-size: 2.5rem;
+}
+
+form > div > .equals {
+  width: 40%;
+}
